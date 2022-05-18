@@ -16,8 +16,8 @@ pipeline {
 		steps {
 		echo "Test"
 	}
-	}
-           } post {
+	   }
+    } post {
 			   always {
 				   echo 'Im awesome.I run always!'
 			   }
@@ -27,6 +27,6 @@ pipeline {
 			   failure {
 				   echo 'I ru  when you fail'
 			   }
-		   }
+	}
 		   
 }
