@@ -50,5 +50,5 @@ pipeline {
 				   echo 'I ru  when you fail'
 			   }
 	}
-		   
+}		   
 
